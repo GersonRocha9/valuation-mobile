@@ -1,0 +1,37 @@
+.benefitsText {
+  font-family: "Termina", sans-serif;
+  font-size: 1.125rem;
+  color: #e3e3e3;
+  text-align: center;
+}
+
+.benefitsText span {
+  color: #00f729;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.625rem;
+  margin-top: 1.875rem;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eeeeee;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.08rem;
+  text-align: center;
+}
+
+.benefitText {
+  margin-bottom: 1.75rem;
+}
+
+.benefitImage {
+  margin-bottom: 1.25rem;
+}

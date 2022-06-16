@@ -1,0 +1,92 @@
+.courseTitle {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
+  font-family: "Termina", sans-serif;
+  font-size: 1.313rem;
+  color: #fafafa;
+  letter-spacing: 0.06rem;
+  align-items: center;
+}
+
+.infoCoursesContainer {
+  border: 1px solid #c0bdbd;
+  border-radius: 22px;
+  padding: 1.625rem 2.188rem;
+  width: 367px;
+  margin-left: -8.3%;
+}
+
+.numberChapter {
+  width: 35px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 0.875rem;
+  color: #131313;
+  padding: 0.625rem;
+  background-color: #00f729;
+  margin-bottom: 1.5rem;
+}
+
+.titleCourse {
+  font-family: "Termina", sans-serif;
+  font-size: 1.19rem;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.subtitleCourse {
+  width: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #d9d9d9;
+  margin-bottom: 1.5rem;
+}
+
+.lessonContainer {
+  display: flex;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: #a4a4a4;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.lessonContainer span {
+  margin-left: 1.125rem;
+  color: #00f729;
+}
+
+.lessons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.938rem;
+  align-items: center;
+}
+
+.lessonNumber {
+  color: #00f729;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.lessonName {
+  width: 70%;
+}
+
+.lessonName,
+.lessonTime {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #d9d9d9;
+  letter-spacing: 0.05rem;
+}
+
+.lessonTime {
+  color: #a4a4a4;
+}

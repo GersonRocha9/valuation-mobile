@@ -1,0 +1,17 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrowsContainer {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+  margin: 3.125rem auto 4.813rem auto;
+}
+
+.logoContainer {
+  margin: 0 auto 3.5rem auto;
+}
