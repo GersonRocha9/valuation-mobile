@@ -7,4 +7,6 @@ export const Container = styled.div`
   margin-top: 1rem;
 `;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+  cursor: pointer;
+`;

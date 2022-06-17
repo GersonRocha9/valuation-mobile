@@ -16,7 +16,9 @@ export const TitleContainer = styled.div`
 
 export const Title = styled.p``;
 
-export const Link = styled.a``;
+export const Link = styled.a`
+  cursor: pointer;
+`;
 
 export const Chevron = styled.img``;
 
