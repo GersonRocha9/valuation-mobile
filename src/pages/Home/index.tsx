@@ -5,11 +5,11 @@ import { Course } from "../../components/Course";
 import { Footer } from "../../components/Footer";
 import { Form } from "../../components/Form";
 import { Header } from "../../components/Header";
-import styles from "./Home.module.css";
+import { Container } from "./styles";
 
 export const Home = () => {
   return (
-    <div className={styles.container}>
+    <Container>
       <Header />
 
       <Content
@@ -35,6 +35,6 @@ export const Home = () => {
       />
 
       <Footer />
-    </div>
+    </Container>
   );
 };

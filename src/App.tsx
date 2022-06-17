@@ -1,6 +1,6 @@
 import "./global.css";
 
-import { Home } from "./pages/Home/Home";
+import { Home } from "./pages/Home";
 
 export const App = () => {
   return <Home />;
