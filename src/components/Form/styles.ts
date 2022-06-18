@@ -56,11 +56,11 @@ export const Input = styled.input`
   font-size: 0.875rem;
   color: #131313;
   background-color: #d9d9d9;
-  transition: 0.3s;
+  transition: all 0.2s ease-in-out;
 
   &:focus {
     outline: 1px solid #00f729;
-    transition: 0.3s;
+    transition: all 0.2s ease-in-out;
   }
 
   &::-webkit-input-placeholder,
