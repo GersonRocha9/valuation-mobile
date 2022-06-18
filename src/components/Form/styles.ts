@@ -13,6 +13,8 @@ export const Container = styled.div`
   justify-content: space-between;
 `;
 
+export const FormContainer = styled.form``;
+
 export const Title = styled.p`
   font-family: "Red Hat Display", sans-serif;
   font-weight: 600;

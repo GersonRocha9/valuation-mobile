@@ -80,7 +80,7 @@ export const LessonContainer = styled.div`
   }
 `;
 
-export const Lesson = styled.p`
+export const Lesson = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.938rem;

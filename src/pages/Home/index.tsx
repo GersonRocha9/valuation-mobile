@@ -17,11 +17,7 @@ export const Home = () => {
         subtitle="Bancos, fundos, investidores. Todos eles usam o Valuation pra fechar bons negócios."
       />
 
-      <Form
-        title="Entre na lista para ser avisado no lançamento do curso"
-        buttonText="Entrar na lista"
-        onSubmit={() => {}}
-      />
+      <Form title="Entre na lista para ser avisado no lançamento do curso" buttonText="Entrar na lista" />
 
       <Avaliation title="Avaliação média do curso" subtitle="NPS: 83.6" />
 
