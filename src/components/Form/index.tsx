@@ -6,10 +6,9 @@ import { Button, Container, FormContainer, Input, Title } from "./styles";
 interface FormProps {
   title: string;
   buttonText: string;
-  onSubmit: (data: any) => void;
 }
 
-export const Form = ({ title, buttonText, onSubmit }: FormProps) => {
+export const Form = ({ title, buttonText }: FormProps) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -18,7 +17,7 @@ export const Form = ({ title, buttonText, onSubmit }: FormProps) => {
     e.preventDefault();
 
     if (name === "" || email === "") {
-      alert("Preencha todos os campos");
+      alert("Preencha todos os campos obrigatórios (Nome e E-mail)");
     } else {
       axios
         .post("http://localhost:3000/subs", {
