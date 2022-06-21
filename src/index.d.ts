@@ -1,1 +1,2 @@
-declare module "*.svg, *.png, *.jpg, *.jpeg, *.gif";
+declare module "*.svg";
+declare module "*.png";
