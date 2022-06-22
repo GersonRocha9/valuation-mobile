@@ -6,10 +6,10 @@ interface AvaliationProps {
   subtitle: string;
 }
 
-export const Avaliation = ({ title, subtitle }: AvaliationProps) => {
+export const Avaliation = (props: AvaliationProps) => {
   return (
     <Container>
-      <Title>{title}</Title>
+      <Title>{props.title}</Title>
 
       <StarsContainer>
         <Star src={star} alt="Estrela" />
@@ -19,7 +19,7 @@ export const Avaliation = ({ title, subtitle }: AvaliationProps) => {
         <Star src={star} alt="Estrela" />
       </StarsContainer>
 
-      <Subtitle>{subtitle}</Subtitle>
+      <Subtitle>{props.subtitle}</Subtitle>
     </Container>
   );
 };

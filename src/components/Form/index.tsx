@@ -8,7 +8,7 @@ interface FormProps {
   buttonText: string;
 }
 
-export const Form = ({ title, buttonText }: FormProps) => {
+export const Form = (props: FormProps) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -39,14 +39,14 @@ export const Form = ({ title, buttonText }: FormProps) => {
   return (
     <Container>
       <FormContainer action="/" method="POST">
-        <Title>{title}</Title>
+        <Title>{props.title}</Title>
 
         <Input required type="text" name="name" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
         <Input required type="text" name="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
         <Input type="text" name="phone" placeholder="Whatsapp (opcional)" onChange={(e) => setPhone(e.target.value)} />
 
         <Button type="submit" onClick={handleSubmit}>
-          {buttonText}
+          {props.buttonText}
         </Button>
       </FormContainer>
     </Container>

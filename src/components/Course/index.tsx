@@ -28,11 +28,11 @@ interface CourseProps {
   subtitleCourse: string;
 }
 
-export const Course = ({ title, numChapter, titleCourse, subtitleCourse }: CourseProps) => {
+export const Course = (props: CourseProps) => {
   return (
     <Container>
       <TitleContainer>
-        <Title>{title}</Title>
+        <Title>{props.title}</Title>
         <Link>
           <Chevron src={chevronUp} alt="Chevron" />
         </Link>
@@ -40,12 +40,12 @@ export const Course = ({ title, numChapter, titleCourse, subtitleCourse }: Cours
 
       <InfoCoursesContainer>
         <ChapterCourse>
-          <NumberChapter>{numChapter}</NumberChapter>
+          <NumberChapter>{props.numChapter}</NumberChapter>
         </ChapterCourse>
 
         <TextCourseContainer>
-          <TitleCourse>{titleCourse}</TitleCourse>
-          <SubtitleCourse>{subtitleCourse}</SubtitleCourse>
+          <TitleCourse>{props.titleCourse}</TitleCourse>
+          <SubtitleCourse>{props.subtitleCourse}</SubtitleCourse>
         </TextCourseContainer>
 
         <LessonContainer>
