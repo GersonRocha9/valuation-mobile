@@ -16,7 +16,14 @@
 <br>
 
 
+## <a href=“https://valuation-mobile-gersonrocha9.vercel.app/“>🔗 LINK DA PÁGINA HOSPEDADA NA VERCEL</a>
+
+<br>
+
 ### A página é referente apenas a versão mobile da Lista de Espera de um dos cursos online, o Valuation: do Zero ao Avançado 2.0. 
+
+
+
 
 <br>
 
