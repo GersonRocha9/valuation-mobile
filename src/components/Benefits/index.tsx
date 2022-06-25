@@ -4,10 +4,6 @@ import benefit3 from "../../assets/images/benefit-3.svg";
 import benefit4 from "../../assets/images/benefit-4.svg";
 import { Benefit, BenefitDescription, BenefitImage, BenefitsContainer, Container, Title } from "./styles";
 
-interface BenefitsProps {
-  title: string;
-}
-
 export const Benefits = () => {
   return (
     <Container>
