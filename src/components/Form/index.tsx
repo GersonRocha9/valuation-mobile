@@ -38,16 +38,14 @@ export const Form = (props: FormProps) => {
 
   return (
     <Container>
-      <FormContainer action="/" method="POST">
+      <FormContainer action="/" method="POST" onSubmit={handleSubmit}>
         <Title>{props.title}</Title>
 
         <Input required type="text" name="name" placeholder="Nome" onChange={(e) => setName(e.target.value)} />
         <Input required type="text" name="email" placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} />
         <Input type="text" name="phone" placeholder="Whatsapp (opcional)" onChange={(e) => setPhone(e.target.value)} />
 
-        <Button type="submit" onClick={handleSubmit}>
-          {props.buttonText}
-        </Button>
+        <Button type="submit">{props.buttonText}</Button>
       </FormContainer>
     </Container>
   );
