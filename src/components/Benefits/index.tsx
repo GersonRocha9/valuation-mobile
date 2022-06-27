@@ -19,7 +19,7 @@ export const Benefits = () => {
 
         <Benefit>
           <BenefitImage src={benefit2} alt="Benefício 2" />
-          <BenefitDescription>Empresas em crescimento e maturação (Fluxo de Caixa Descontado</BenefitDescription>
+          <BenefitDescription>Empresas em crescimento e maturação (Fluxo de Caixa Descontado)</BenefitDescription>
         </Benefit>
 
         <Benefit>
