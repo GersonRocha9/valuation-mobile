@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-import benefit1 from "../../assets/images/benefit-1.svg";
-import benefit2 from "../../assets/images/benefit-2.svg";
-import benefit3 from "../../assets/images/benefit-3.svg";
-import benefit4 from "../../assets/images/benefit-4.svg";
+import benefit1 from "../assets/images/benefit-1.svg";
+import benefit2 from "../assets/images/benefit-2.svg";
+import benefit3 from "../assets/images/benefit-3.svg";
+import benefit4 from "../assets/images/benefit-4.svg";
 
 const Benefits = () => {
   return (

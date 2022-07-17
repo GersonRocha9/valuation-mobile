@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import books from "../../assets/images/books.svg";
-import chevronUp from "../../assets/images/chevron.svg";
+import books from "../assets/images/books.svg";
+import chevronUp from "../assets/images/chevron.svg";
 
 interface CourseProps {
   title: string;

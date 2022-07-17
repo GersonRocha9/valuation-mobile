@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import menu from "../../assets/images/menu.svg";
-import varosLogo from "../../assets/images/varos-logo.svg";
+import menu from "../assets/images/menu.svg";
+import varosLogo from "../assets/images/varos-logo.svg";
 
 const Header = () => {
   return (

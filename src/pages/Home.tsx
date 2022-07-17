@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-import Avaliation from "../../components/Avaliation";
-import Benefits from "../../components/Benefits";
-import Content from "../../components/Content";
-import Course from "../../components/Course";
-import Footer from "../../components/Footer";
-import Form from "../../components/Form";
-import Header from "../../components/Header";
+import Avaliation from "../components/Avaliation";
+import Benefits from "../components/Benefits";
+import Content from "../components/Content";
+import Course from "../components/Course";
+import Footer from "../components/Footer";
+import Form from "../components/Form";
+import Header from "../components/Header";
 
 const Home = () => {
   return (

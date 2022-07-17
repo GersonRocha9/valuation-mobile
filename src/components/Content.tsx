@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import valuationLogo from "../../assets/images/valuation-logo.svg";
+import valuationLogo from "../assets/images/valuation-logo.svg";
 
 interface ContentProps {
   title: string;

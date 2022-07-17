@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import star from "../../assets/images/star.svg";
+import star from "../assets/images/star.svg";
 
 interface AvaliationProps {
   title: string;

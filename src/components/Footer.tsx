@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import arrowLeft from "../../assets/images/arrow-left.svg";
-import arrowRight from "../../assets/images/arrow-right.svg";
-import varosLogo from "../../assets/images/varos-logo.svg";
+import arrowLeft from "../assets/images/arrow-left.svg";
+import arrowRight from "../assets/images/arrow-right.svg";
+import varosLogo from "../assets/images/varos-logo.svg";
 
 const Footer = () => {
   return (
