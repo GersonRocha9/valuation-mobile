@@ -1,13 +1,14 @@
-import { Avaliation } from "../../components/Avaliation";
-import { Benefits } from "../../components/Benefits";
-import { Content } from "../../components/Content";
-import { Course } from "../../components/Course";
-import { Footer } from "../../components/Footer";
-import { Form } from "../../components/Form";
-import { Header } from "../../components/Header";
-import { Container } from "./styles";
+import styled from "styled-components";
 
-export const Home = () => {
+import Avaliation from "../../components/Avaliation";
+import Benefits from "../../components/Benefits";
+import Content from "../../components/Content";
+import Course from "../../components/Course";
+import Footer from "../../components/Footer";
+import Form from "../../components/Form";
+import Header from "../../components/Header";
+
+const Home = () => {
   return (
     <Container>
       <Header />
@@ -34,3 +35,16 @@ export const Home = () => {
     </Container>
   );
 };
+
+export const Container = styled.div`
+  margin: 0 auto;
+  width: 375px;
+  padding: 1.875rem;
+  background-image: url("../../../src/assets/images/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #131313;
+`;
+
+export default Home;

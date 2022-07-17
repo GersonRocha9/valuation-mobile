@@ -1,8 +1,9 @@
+import styled from "styled-components";
+
 import menu from "../../assets/images/menu.svg";
 import varosLogo from "../../assets/images/varos-logo.svg";
-import { Container, Image } from "./styles";
 
-export const Header = () => {
+const Header = () => {
   return (
     <Container>
       <Image src={varosLogo} alt="Logomarca da Varos" />
@@ -10,3 +11,16 @@ export const Header = () => {
     </Container>
   );
 };
+
+export const Container = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+`;
+
+export const Image = styled.img`
+  cursor: pointer;
+`;
+
+export default Header;
